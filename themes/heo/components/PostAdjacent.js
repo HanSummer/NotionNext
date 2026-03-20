@@ -62,7 +62,7 @@ export default function PostAdjacent({ prev, next }) {
   return (
     <div id='article-end'>
       {/* 移动端 */}
-      <section className='lg:hidden pt-8 text-gray-800 items-center text-xs md:text-sm flex flex-col m-1 '>
+      <section className='lg:hidden pt-8 text-gray-800 items-center text-xs md:text-sm flex flex-col my-1 mx-5 '>
         <SmartLink
           href={`/${prev.slug}`}
           passHref

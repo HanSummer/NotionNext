@@ -20,8 +20,8 @@ const ShareBar = ({ post }) => {
   }
 
   return (
-    <div className='m-1 overflow-x-auto'>
-      <div className='flex w-full md:justify-end'>
+    <div className='m-1 overflow-hidden'>
+      <div className='flex w-full justify-center flex-wrap p-4 gap-1'>
         <ShareButtons post={post} />
       </div>
     </div>

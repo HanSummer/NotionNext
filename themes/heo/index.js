@@ -321,7 +321,7 @@ const LayoutSlug = props => {
               {/* 分享 */}
               <ShareBar post={post} />
               {post?.type === 'Post' && (
-                <div className='px-5'>
+                <div className='px-5 pb-5'>
                   {/* 版权 */}
                   <PostCopyright {...props} />
                   {/* 文章推荐 */}

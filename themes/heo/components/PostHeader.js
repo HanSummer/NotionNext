@@ -102,7 +102,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
 
           {/* 标题底部补充信息 */}
           <section className='flex-wrap dark:text-gray-200 text-opacity-70 shadow-text-md flex text-sm  justify-center md:justify-start mt-4 text-white font-light leading-8'>
-            <div className='flex justify-center '>
+            <div className='flex  flex-wrap'>
               <div className='mr-2'>
                 <WordCount
                   wordCount={post.wordCount}
@@ -125,15 +125,15 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
                 <i className='fa-regular fa-calendar-check'></i>{' '}
                 {post.lastEditedDay}
               </div>
-            </div>
 
-            {/* 阅读统计 */}
-            {ANALYTICS_BUSUANZI_ENABLE && (
-              <div className='busuanzi_container_page_pv font-light mr-2'>
-                <i className='fa-solid fa-fire-flame-curved'></i>{' '}
-                <span className='mr-2 busuanzi_value_page_pv' />
-              </div>
-            )}
+              {/* 阅读统计 */}
+              {ANALYTICS_BUSUANZI_ENABLE && (
+                <div className='busuanzi_container_page_pv font-light mr-2'>
+                  <i className='fa-solid fa-fire-flame-curved'></i>{' '}
+                  <span className='mr-2 busuanzi_value_page_pv' />
+                </div>
+              )}
+            </div>
           </section>
         </div>
 
