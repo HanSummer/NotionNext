@@ -32,14 +32,14 @@ const Footer = () => {
         className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
         <div id='footer-bottom-left' className='text-center lg:text-start'>
           {/* <PoweredBy /> */}
-          <div className='flex gap-x-1'>
+          <div className='flex gap-x-1 justify-center items-center'>
             <CopyRightDate />
             <a
               href={'/about'}
               className='underline font-semibold dark:text-gray-300 '>
               {siteConfig('AUTHOR')}
             </a>
-            {BIO && <span className='mx-1'> | {BIO}</span>}
+            {BIO && <span className='mx-1 overflow-ellipsis overflow-hidden whitespace-nowrap'> | {BIO}</span>}
           </div>
         </div>
 
