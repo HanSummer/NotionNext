@@ -20,9 +20,9 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '分享读书',
   HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: 'XIAHONGLIN.COM',
-  HEO_HERO_TITLE_4: '',
-  HEO_HERO_TITLE_5: '',
-  HEO_HERO_TITLE_LINK: '',
+  HEO_HERO_TITLE_4: '新文发布',
+  HEO_HERO_TITLE_5: '等你来看',
+  HEO_HERO_TITLE_LINK: 'https://www.xiahonglin.com/',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
